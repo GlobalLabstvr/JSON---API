@@ -1,12 +1,10 @@
 package com.example.jpa.controller;
 
 import com.example.jpa.exception.ResourceNotFoundException;
-import com.example.jpa.model.Course;
 import com.example.jpa.model.Subject;
 import com.example.jpa.repository.SubjectRepository;
 import com.example.jpa.repository.CourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
